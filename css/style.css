@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#home{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    height: 100vh;
+    position: relative;
+    
+}
+.layer{
+    /* background-color: rgba(191, 75, 75, 0.807); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+  
+}
+.home-desc {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.home-cont h1{
+    font-size: 70px;
+}#sidenav {
+    background-color: #414658;
+    width: 17%;
+}#sidenav i{
+    /* float: right; */
+    cursor: pointer;
+   
+}
+#sidenav a:hover{
+    color: rgba(163, 57, 57, 0.871) !important;}
+/* }.clear{
+    clear: both; */
+#singers h3{
+    cursor: pointer;
+}.desc{
+    display: none;
+}
+#duration{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+   
+    padding: 80px 0px !important;
+}
+.overlaye{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0 ;
+    left: 0;
+    /* background-color: #d68888eb; */
+    
+}.item {
+    text-align: center;
+    padding: 15px 5px;
+    border: 1px solid white;
+    color: white;
+  
+   
+}
+.icons i{
+  padding: 10px 7px  ;
+  margin: 0px 5px;
+  border:  1px solid black;
+}.icons i:hover{
+    background-color: red;
+    color: #fff !important;
+   
+}.setting{
+    width: 20%;
+    position: absolute;
+    height: 100%;
+    top: 0%;
+    left: 0;
+    display: flex;
+    align-items:flex-start;
+}.inner{
+    background-color: #414658;
+    width: 80%;
+    height: 100%;
+
+}.inner i{
+    display: block;
+    text-align: right;
+    margin: 10px ;
+    cursor: pointer;
+}
+.box{
+    background-color: rgba(163, 57, 57, 0.871);
+    width: 25%; padding:7px;
+    font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 70%;
+   cursor: pointer;
+}
